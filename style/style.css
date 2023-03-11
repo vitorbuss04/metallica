@@ -93,6 +93,10 @@ main p {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
 }
 
+p.description {
+  text-align: center;
+}
+
 main img {
   display: block;
   padding-top: 15px;
@@ -110,14 +114,13 @@ footer p {
   padding: 3px;
 }
 
-ol li{
+ol li {
   font-family: var(--fonte-destaque);
   margin: 30px 0;
 }
 
 ol li p {
   font-family: var(--fonte-padrao);
-
 }
 
 ol li img {
