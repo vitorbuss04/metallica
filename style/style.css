@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor1: #73091d;
+  --cor2: #d98825;
+  --cor3: #bf5315;
+  --cor4: #8c260f;
+  --cor5: #260707;
+
+  --fonte-padrao: "Tilt Neon", sans-serif;
+  --fonte-destaque: "New Rocker", sans-serif;
+}
+
+body {
+  background-color: var(--cor2);
+}
+
+header {
+  background-image: linear-gradient(#bf5315, #8c260f);
+  background-color: var(--cor3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.678);
+}
+
+.metallica-logo {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  width: 400px;
+}
+
+header h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: var(--fonte-destaque);
+  color: var(--cor5);
+  padding: 15px;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #140404;
+  font-weight: normal;
+  text-shadow: 1px 1px 5px #26070749;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px 10px;
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  font-family: var(--fonte-destaque);
+}
+
+header nav a:hover {
+  background-color: var(--cor3);
+  scale: 1.07;
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffa231;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.123);
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: var(--fonte-destaque);
+  padding: 10px 10px 10px 5px;
+  color: var(--cor5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+}
+
+main p {
+  text-align: justify;
+  padding: 10px;
+  font-family: var(--fonte-padrao);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+}
+
+main img {
+  display: block;
+  padding-top: 15px;
+  margin: auto;
+}
+
+footer {
+  background-color: #8c260f;
+}
+
+footer p {
+  color: #140404;
+  text-align: center;
+  font-family: var(--fonte-padrao);
+  padding: 3px;
+}
+
+ol li{
+  font-family: var(--fonte-destaque);
+  margin: 30px 0;
+}
+
+ol li p {
+  font-family: var(--fonte-padrao);
+
+}
+
+ol li img {
+  margin-bottom: 40px;
+  width: 300px;
+}
+
+ol li iframe {
+  display: block;
+  margin: auto;
+}
