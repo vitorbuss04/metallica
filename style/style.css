@@ -124,6 +124,10 @@ footer p {
   padding: 3px;
 }
 
+footer a {
+  color: #140404;
+}
+
 ol li {
   font-family: var(--fonte-destaque);
   margin: 30px auto;

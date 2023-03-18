@@ -178,3 +178,7 @@ footer p {
     font-family: var(--fonte-padrao);
     padding: 3px;
   }
+
+  footer a {
+    color: #140404;
+  }
