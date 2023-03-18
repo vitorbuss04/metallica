@@ -19,6 +19,10 @@
   --fonte-destaque: "New Rocker", sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background-color: var(--cor2);
 }
@@ -84,6 +88,12 @@ main h1 {
   padding: 10px 10px 10px 5px;
   color: var(--cor5);
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+}
+
+main h2 {
+  text-align: center;
+  font-size: 1.3em;
+  font-family: var(--fonte-destaque);
 }
 
 main p {

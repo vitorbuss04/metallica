@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor1: #73091d;
+  --cor2: #d98825;
+  --cor3: #bf5315;
+  --cor4: #8c260f;
+  --cor5: #260707;
+
+  --fonte-padrao: "Tilt Neon", sans-serif;
+  --fonte-destaque: "New Rocker", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: var(--cor2);
+}
+
+header {
+  background-image: linear-gradient(#bf5315, #8c260f);
+  background-color: var(--cor3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.678);
+}
+
+.metallica-logo {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  width: 400px;
+}
+
+header h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: var(--fonte-destaque);
+  color: var(--cor5);
+  padding: 15px;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #140404;
+  font-weight: normal;
+  text-shadow: 1px 1px 5px #26070749;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px 10px;
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  font-family: var(--fonte-destaque);
+}
+
+header nav a:hover {
+  background-color: var(--cor3);
+  scale: 1.07;
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: var(--fonte-destaque);
+  font-size: 35pt;
+  font-weight: normal;
+  color: var(--cor5);
+}
+
+h2 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: var(--fonte-destaque);
+  font-size: 20pt;
+  font-weight: normal;
+  color: #140404;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.produto img {
+  display: block;
+  margin-top: 10px;
+  transition: .2s ease-out;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+  border: 4px solid rgba(0, 0, 0, 0.548);
+}
+
+.produto img:hover {
+  scale: 1.1;
+  border: 8px solid rgba(0, 0, 0, 0.548);
+
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 360px;
+  margin: 15px;
+  background-color: var(--cor1);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+
+}
+
+.produto h2 {
+  width: 290px;
+  text-align: left;
+  font-size: 15pt;
+  color: #c45b1e;
+  font-weight: normal;
+}
+
+.produto p {
+  margin: 10px 0;
+  text-align: left;
+  width: 90%;
+  color: #e68917;
+  font-family: var(--fonte-padrao);
+}
+
+.produto button {
+  font-size: 1.3em;
+  font-family: var(--fonte-padrao);
+  display: block;
+  width: 90%;
+  height: 60px;
+  margin: auto;
+  background-image: linear-gradient(30deg, #bf5315, #8c260f);
+  background-size: 110%;
+  background-position: center;
+  border: 2px solid rgba(255, 255, 255, 0.253);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: .2s ease-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+}
+
+.produto button:hover {
+  scale: 1.1;
+  border: 8px solid rgba(255, 255, 255, 0.253);
+}
+
+footer {
+    background-color: #8c260f;
+    border: none;
+  }
+  
+footer p {
+    color: #140404;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    padding: 3px;
+  }
