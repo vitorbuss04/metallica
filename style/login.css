@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor1: #73091d;
+  --cor2: #d98825;
+  --cor3: #bf5315;
+  --cor4: #8c260f;
+  --cor5: #260707;
+
+  --fonte-padrao: "Tilt Neon", sans-serif;
+  --fonte-destaque: "New Rocker", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+    background-color: #d98825;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div.login {
+    height: 350px;
+    width: 90vw;
+    background-color: #8c260f;
+}
+
+div.login-left {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+div.login-left h1 {
+    width: 100%;
+}
+
+div.login-right {
+    height: 100%;
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+
