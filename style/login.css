@@ -5,7 +5,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
+box-sizing: border-box;
 }
 
 :root {
@@ -32,27 +33,92 @@ body {
     flex-wrap: nowrap;
 }
 
-div.login {
-    height: 350px;
-    width: 90vw;
-    background-color: #8c260f;
+body {
+  background: url(https://i.pinimg.com/originals/d9/32/fc/d932fc808c27c65d23b62f68313fcc34.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-div.login-left {
+.login {
+    height: 340px;
+    width: 360px;
+    background-color: rgba(61, 61, 61, 0.911);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 7px solid rgba(0, 0, 0, 0.459);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
+}
+
+.loginbar {
     height: 100%;
-    width: 50%;
-    border: 1px solid black;
-}
-
-div.login-left h1 {
     width: 100%;
+    padding: 15px;
 }
 
-div.login-right {
-    height: 100%;
-    width: 50%;
-    border: 1px solid black;
+.loginbar h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: #b3b3b3;
+    text-shadow: 1px 1px 5px #00000054;
 }
+
+.loginbar h2{
+  text-align: center;
+  margin-bottom: 0px;
+  font-family: var(--fonte-padrao);
+  font-weight: normal;
+  color: #c9c9c9;
+  text-shadow: 1px 1px 10px #00000054;
+}
+
+.loginbar p {
+  text-align: center;
+  margin: 10px 0;
+  font-family: var(--fonte-padrao);
+  color: #c9c9c9;
+  text-shadow: 1px 1px 5px #00000054;
+}
+
+.loginbar input {
+  display: flex;
+  height: 30px;
+  border: none;
+  padding-left: 7px;
+  margin: auto;
+  margin-top: 8px;
+  outline-style: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+}
+
+.loginbar input#sub {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 100px;
+  font-family: var(--fonte-destaque);
+  font-size: 15px;
+  transition: .2s ease-out;
+  color: #1d0505;
+  font-weight: normal;
+  background-color: #d98825;
+  margin-top: 15px;
+}
+
+.loginbar input#sub:hover {
+  scale: 1.05;
+}
+
+.loginbar a {
+  text-decoration: none;
+}
+
+
+
 
 
 
