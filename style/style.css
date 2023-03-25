@@ -27,7 +27,6 @@ body {
   background-color: #0f0f0f;
 }
 
-
 header {
   background-image: linear-gradient(#3d3d3d, #686868);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.678);
@@ -44,7 +43,7 @@ header h2 {
   text-align: center;
   font-weight: normal;
   font-family: var(--fonte-destaque);
-  color: var(--cor5);
+  color: #dadada;
   padding: 15px;
 }
 
@@ -55,7 +54,7 @@ header nav {
 
 header nav a {
   text-decoration: none;
-  color: #140404;
+  color: #dadada;
   font-weight: normal;
   text-shadow: 1px 1px 5px #26070749;
   height: 40px;
@@ -65,6 +64,11 @@ header nav a {
   border-radius: 10px;
   transition: 0.2s ease-out;
   font-family: var(--fonte-destaque);
+}
+
+header nav a#login {
+  position: absolute;
+  right: 0;
 }
 
 header nav a:hover {
